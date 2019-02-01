@@ -1,0 +1,11 @@
+# The toy example involving a composite node
+A* = B and C
+~A* = not B or not C
+B* = not A
+~B* = A
+C* = B or A
+~C* = not B and not A
+
+
+
+
