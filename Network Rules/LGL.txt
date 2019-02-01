@@ -1,0 +1,13 @@
+# T-LGL reduced network  
+Apoptosis* = DISC or Apoptosis
+~Apoptosis* = not DISC and not Apoptosis
+Ceramide* = Fas and not S1P and not Apoptosis
+~Ceramide* = not Fas or S1P or Apoptosis
+DISC* = (Ceramide and not Apoptosis) or (Fas and not FLIP and not Apoptosis)
+~DISC* = (not Ceramide and not Fas) or (not Ceramide and FLIP) or Apoptosis
+Fas* = not S1P and not Apoptosis
+~Fas* = S1P or Apoptosis
+FLIP* = not DISC and not Apoptosis
+~FLIP* = DISC or Apoptosis
+S1P* = not Ceramide and not Apoptosis
+~S1P* = Ceramide or Apoptosis
